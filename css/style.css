@@ -142,3 +142,21 @@ footer.page-footer {
 .social-icon:hover {
 color: #EF3550
 }
+
+.back-to-top {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+width: 60px;
+height: 60px;
+z-index: 100;
+display: none;
+text-decoration: none;
+color: #ffffff;
+background-color: transparent;
+}
+.back-to-top i {
+font-size: 60px;
+}
