@@ -47,4 +47,7 @@ ExpiresByType application/x-shockwave-flash "access 1 month"
 ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 1 month"
 
-## EXPIRES CACHING ##
+## Se le tue pagine hanno estensione .html o .htm aggiungi questo codice per trasformare hmtl in php ##
+AddType application/x-httpd-php .php
+AddType application/x-httpd-php .htm
+AddType application/x-httpd-php .html
