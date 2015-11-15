@@ -1,0 +1,297 @@
+<? require_once "ccookie.php"; ?>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>ConsalesArredamenti | Divani e Cucine</title>
+  <meta name="description" content="La nostra guida per l'acquisto di un divano. Acquista il tuo divano con le promozioni di ConsalesArredamenti."/>
+   <!-- FB Open Graph -->
+  <meta property="og:url" content="http://consalesarredamenti.tk" /> 
+  <meta property="og:title" content="ConsalesArredamenti | Divani e Cucine" /> 
+  <meta property="og:image" content="http://consalesarredamenti.tk/thank-you/images/report.png" /> 
+  <meta property="og:description" content="La nostra guida per l'acquisto del divano. Acquista il tuo divano con le promozioni di ConsalesArredamenti." />
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Google Font -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway|Satisfy' rel='stylesheet' type='text/css'>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <!-- SumoMe -->
+  <script src="//load.sumome.com/" data-sumo-site-id="d8b9abccb21b4e8426e7550da6f682ba19e6ca2ada8fb0ded87030c960055a50" async="async"></script>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <!-- Go To Top Button -->
+  <a href="#" class="back-to-top" style="display: inline;">
+  <i class="fa fa-arrow-circle-up"></i>
+  </a>
+  <!-- Fixed Navbar -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper white">
+        <a href="#" class="brand-logo">ConsalesArredamenti</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#registrazione">Registrati</a></li>
+           <li><a href="#ospita">Offerta</a></li>
+        </ul>
+         <ul class="side-nav" id="mobile-demo">
+            <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#registrazione">Registrati</a></li>
+           <li><a href="#ospita">Offerta</a></li>
+      </ul>
+      </div>
+    </nav>
+  </div>
+
+<!-- Intro -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section-intro no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header left-align white-text">L'unico tessuto<br>a prova di macchia</h1>
+        <div class="row center">
+          <h5 class="header-subtitle col s12 light">D'ora in poi non avrai più bisogno di coprire il tuo divano con foulard, copridivano,<br> finalmente potrai goderti i tuoi momenti di relax in tutta tranquillità,<br> anche se hai bambini e amici a casa</h5>
+        </div>
+        <div class="row center">
+          <a href="#servizio" class="btn-large waves-effect waves-light red lighten-1">Scopri come funziona</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="images/background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+<!-- Servizio -->
+  <div id="servizio" class="container">
+    <div class="section">
+      <div class="col-servizio">
+
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center red-text text-lighten-1"><img src="thank-you/images/icon1.png" class="img-responsive center-block"/></h2>
+              <h5 class="center">L'unico divano in tessuto antimacchia</h5>
+              <br>
+              <h5 class="center red-text text-lighten-1 light">Con un semplice gesto, in 5 secondi elimini ogni tipo di macchia.</h5>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center red-text text-lighten-1"><img src="thank-you/images/icon3.png" class="img-responsive center-block"/>
+              <h5 class="center">Invita amici a casa e fai giocare i tuoi bambini</h5>
+              <br>
+              <h5 class="center red-text text-lighten-1 light">Con questo tessuto non avrai più l'assillo di sporcare e rovinare il divano.</h5>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center red-text text-lighten-1"><img src="thank-you/images/icon4.png" class="img-responsive center-block"/></h2>
+              <h5 class="center">Le cerniere rotte non saranno più un problema</h5>
+              <br>
+              <h5 class="center red-text text-lighten-1 light">Non dovrai più sfoderare e rifoderare il divano, con la fatica che ne consegue.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Altri Benefici -->
+  <!-- Servizio -->
+  <div id="servizio2" class="container">
+    <div class="section">
+      <div class="col-benefici">
+
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center red-text text-lighten-1"><img src="thank-you/images/icon5.png" class="img-responsive center-block"/></h2>
+              <h5 class="center">I nostri clienti sono tutti soddisfatti</h5>
+              <br>
+              <h5 class="center red-text text-lighten-1 light">E' stato già testato da 165 persone, con risultati sorprendenti.</h5>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center red-text text-lighten-1"><img src="thank-you/images/icon6.png" class="img-responsive center-block"/></h2>
+              <h5 class="center">Divani di qualità a prezzi convenienti</h5>
+              <br>
+              <h5 class="center red-text text-lighten-1 light">Troverai il divano che fa per te evitando di buttare i tuoi soldi al vento.</h5>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center red-text text-lighten-1"><img src="thank-you/images/icon7.png" class="img-responsive center-block"/></h2>
+              <h5 class="center">Divani e poltrone con certificato di garanzia</h5>
+              <br>
+              <h5 class="center red-text text-lighten-1 light">Tutti i divani e le poltrone sono coperti da apposita garanzia.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Registrazione -->
+  <div id="registrazione" class="parallax-container valign-wrapper">
+    <div class="section-registrazione no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <i class="material-icons registrazione-icon">picture_as_pdf</i>
+          <h3 class="col s12 light">Vuoi saperne di più? Segui i nostri consigli!</h3>
+          <h5 class="col s12 registrazione-subtitle">Registrati per scaricare l'ebook Gratis!</h5>
+           <div class="row">
+              <div class="input-field col s12 l6 offset-l3">
+    <!-- SendinBlue Signup Form HTML Code -->
+<div id="sib_embed_signup">
+    <div class="wrapper">
+
+        <input type="hidden" id="sib_embed_signup_lang" value="it">
+        <input type="hidden" id="sib_embed_invalid_email_message" value="Email non valida, Riprova.">
+        <div id="sib_loading_gif_area" style="position: absolute;z-index: 9999;display: none;">
+          <img src="https://my.sendinblue.com/public/theme/version3/images/loader_sblue.gif" style="display: block;margin-left: auto;margin-right: auto;position: relative;top: 40%;">
+        </div>
+         
+      <form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/262o2/id/8" onsubmit="return false;">
+         
+            <input type="hidden" name="js_id" id="js_id" value="262o2"><input type="hidden" name="listid" id="listid" value="4">
+            <input type="hidden" name="from_url" id="from_url" value="yes">
+            <input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
+           
+            <input name="req_hid" id="req_hid" value="" type="hidden">
+            
+            <input name="email" id="email" value="" type="text" class="validate white center black-text" placeholder="Inserisci qui la tua email!">
+  
+            <button class="btn btn-registrazione waves-effect waves-light red lighten-1" type="submit" data-editfield="subscribe" name="action">Voglio l'ebook!</button>     
+
+            <p><center><img src="images/lucchetto.png" alt="privacy" style="max-width: 16px; max-height: 16px;">  100% Sicuro. Odio lo Spam quanto te.</p></center>
+
+            <div class="container rounded" style="position: absolute;top:150px;left:75px;"> 
+
+            </div>      
+        </form>
+    </div>
+</div>
+<script type='text/javascript' src='https://my.sendinblue.com/public/theme/version3/js/subscribe-validate.js'></script>
+<script type='text/javascript'>
+    jQuery.noConflict(true);
+</script>
+<!-- End : SendinBlue Signup Form HTML Code -->
+
+              </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <!-- Offerte -->
+  <div id="ospita" class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <i class="material-icons ospita-icon red-text text-lighten-1">card_giftcard</i>
+          <h3>Vuoi acquistare il tuo divano con le nostre promozioni?</h3>
+          <h5 class="col s12 ospita-subtitle">Compila il questionario per ricevere promozioni personalizzate o per prenotare un appuntamento. 
+          <br>
+          Ti ricontatteremo entro 24h.</h5>
+          <a class="typeform-share col l6 offset-l3 btn btn-ospita waves-effect waves-light red lighten-1" href="https://alfonsostriano.typeform.com/to/hso0XX" data-mode="2" target="_blank">Scegli l'offerta adatta a TE!</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12 center">
+          <h5 class="white-text">Contattaci</h5>
+          <a href="mailto:consalesarredamenti@gmail.com" class="social-icon"><i class="fa fa-envelope"></i></a>
+           <a href="http://www.facebook.com/ConsalesArredamenti" target="_blank" class="social-icon"><i class="fa fa-facebook"></i></a>
+           <a href="http://plus.google.com/+ConsalesArredamentisasMondragone/" target="_blank" class="social-icon"><i class="fa fa-google-plus"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      <h5 class="center container-footer">2015 &copy ConsalesArredamenti Nr. REA CE 232157 P. IVA 03287360618 | <a class="modal-trigger brown-text text-lighten-3" href="#modal1">Privacy</a> | Via F.lli Bencivenga n. 35 Mondragone</h5>
+      </div>
+    </div>
+  </footer>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="center modal-content">
+      <h4>PRIVACY POLICY COMPLETA</h4>
+      <p>
+ <iframe class="iframe-privacy" src="ConsalesSqueeze/privacy.php" scrolling="no"><p>Your browser does not support iframes.</p></iframe>
+</p>
+ 
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat ">OK</a>
+    </div>
+  </div>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+
+  <!-- Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54285732-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+
+<!-- Go to Top Button -->
+<script>
+jQuery(document).ready(function() {
+var offset = 200;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.back-to-top').fadeIn(duration);
+} else {
+jQuery('.back-to-top').fadeOut(duration);
+}
+});
+jQuery('.back-to-top').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+<!-- Modal -->
+<script>
+$(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+</script>
+  </body>
+</html>
+<? ccookie(); ?>
