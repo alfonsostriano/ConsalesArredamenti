@@ -1,9 +1,4 @@
-*********************************init
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^http://alfonsostriano.github.io/ConsalesArredamenti/$ [OR]
-RewriteCond %{HTTP_HOST} ^http://www.consalesarredamenti.tk/$$
-RewriteRule (.*)$ http://www.consalesarredamenti.tk/$1 [R=301,L]
-fine*********************************
+Redirect 301 / http://consalesarredamenti.tk/
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
