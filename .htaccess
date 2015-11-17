@@ -1,6 +1,6 @@
-Options +FollowSymLinks
+Options +FollowSymlinks
 RewriteEngine on
-RewriteRule (.*) http://http://consalesarredamenti.tk/$1 [R=301,L]
+rewriterule ^ConsalesArredamenti/(.*)$ http://consalesarredamenti.tk$1 [r=301,nc]
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
