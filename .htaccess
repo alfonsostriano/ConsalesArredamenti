@@ -1,4 +1,6 @@
-Redirect 301 / http://consalesarredamenti.tk/
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule (.*) http://http://consalesarredamenti.tk/$1 [R=301,L]
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
